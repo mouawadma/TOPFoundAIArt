@@ -3,16 +3,21 @@ body {
     margin: 0;
 }
 
-header {
+header, .TopSection {
     background-color: #1f2937;
     margin: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.navheader a:link, .LeftContentDescriptive {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .navheader {
     display: flex;
     align-items: center;
-    margin-right: 50px;
-    margin-left: 50px;
 }
 
 .navheader ul {
@@ -22,16 +27,61 @@ header {
 }
 
 .navheader a:link {
-    font-size: 18px;
-    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .navheader a:hover {
     color: hotpink;
   }
 
+.navheader h1, .LeftContentHeader, .SignupBTN {
+    color: #f9faf8;
+}
+  
 .navheader h1 {
     margin-right: auto;
     font-size: 24px;
-    color: #f9faf8;
+
+}
+
+.TopSection {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.LeftContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.LeftContentHeader {
+    font-size: 48px;
+    margin: 0;
+    font-weight:bolder;
+}
+
+.SignupBTN {
+    align-self: flex-start;
+    background-color: #3882f6;
+    border: none;
+    width: 110px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.SignupBTN:active {
+    background-color: hotpink;
+}
+
+.placeholderimage {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 225px;
+    background-color: #f9faf850;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
