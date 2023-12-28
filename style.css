@@ -48,11 +48,13 @@ header, .TopSection {
     display: flex;
     align-items: center;
     padding: 50px;
+    gap: 25px;
 }
 
 .LeftContent {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .LeftContentHeader {
@@ -74,14 +76,15 @@ header, .TopSection {
     background-color: hotpink;
 }
 
-.placeholderimage {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 225px;
-    background-color: #f9faf850;
-    margin-left: 25px;
+.RightImage {
+    min-width: 400px;
+    min-height: 225px;
+    background-image: url(/resources/europeana--rGwFAla0og-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: center;
-    align-items: center;
     color: #E5E7EB;
+    flex: 1;
+    align-self: stretch;
 }
