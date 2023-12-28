@@ -80,7 +80,7 @@ header, .TopSection, footer {
 .RightImage {
     min-width: 400px;
     min-height: 225px;
-    background-image: url(/resources/europeana--rGwFAla0og-unsplash.jpg);
+    background-image: url(resources/europeana--rGwFAla0og-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
